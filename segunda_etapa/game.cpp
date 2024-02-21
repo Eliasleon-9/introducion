@@ -42,6 +42,14 @@ bool repetido(string n, persona *p, int cant) {
 	return false;
 }
 
+// Funcion para llenar la informacion de un juego
+void llenar(vjuego &j, int cant) {
+    j.nombre = vjuegos[Randomico(MJUEGO)];
+    j.ranking = Randomico(10) + 1; // Generar ranking aleatorio entre 1 y 10
+    j.tipo = Randomico(2) == 1 ? true : false;
+    j.dev = desa[Randomico(MDEVS)];
+}
+
 // Funcion para llenar la informacion de una persona
 void llenar(persona *p, int cant) {
 	string n;
@@ -55,14 +63,6 @@ void llenar(persona *p, int cant) {
 			llenar(p[i].juegos[j], MJUEGO);
 		}
 	}
-}
-
-// Funcion para llenar la informacion de un juego
-void llenar(vjuego &j, int cant) {
-    j.nombre = vjuegos[Randomico(MJUEGO)];
-    j.ranking = Randomico(10) + 1; // Generar ranking aleatorio entre 1 y 10
-    j.tipo = Randomico(2) == 1 ? true : false;
-    j.dev = desa[Randomico(MDEVS)];
 }
 
 // Funcion para imprimir la informacion de una persona
