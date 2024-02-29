@@ -1,0 +1,26 @@
+LOS OBJETOS
+una clase es un tipo definido por el usuario.
+es un prototipo que define los metodos y datos que seran incluidos en un tipo de objeto particular,
+los obejtos son instancias de clases.
+
+OBJETO
+un objeto es en terminos computacionales a representacion en memoria de una abstraccion del mundo real, un ente
+encapsulado que contiene datos y metodos, es capaz de recibir mensajes del exterior
+la herencia es un mecanismo por el cual una clase de objetos puede expresarse como un caso especial de una clase mas
+general, incluye auntomaticamente toda la definicion de datos y metodos de la clase general.
+
+MENSAJES
+la forma en que los objetos interactuan entre si, es enviando mensajes pidiendo que se active un metodo especifico
+consiste simplemente del nombre del objeto a quien va dirigido, seguido del metodo que el receptor sabe como ejecutar.
+
+ENCAPSULAMIENTO
+mecanismo por medio del cual un objeto esconde sus datos y metodos al mundo exterior.
+permite proteger los datos de tansformaciones no deseadas, y solo bajo la autorizacion del propio objeto.
+
+POLIFORMISMO
+es la posibilidad de que un nombre pueda ser usado con diferentes propositos
+sobrecarga de operadores
+sobrecarg de funciones
+poliformismo de herencia
+sobrecarga de constructores
+funciones virtuales
